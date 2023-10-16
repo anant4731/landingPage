@@ -1,5 +1,5 @@
 .container {
-  width: 90%;
+  width: 80%;
   display: flex;
   justify-content: center;
   border: 1px solid rgb(73, 73, 73);
@@ -9,7 +9,7 @@
   color: white;
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 80%;
   height: 60px;
   border: none;
   padding-left: 50px;
@@ -27,4 +27,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.submit__button {
+  background-color: #FFFFF0;
+  margin-left: 20px;
+  padding: 20px 50px;
+  border: none;
+  color: black;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
 }
