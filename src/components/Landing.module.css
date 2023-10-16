@@ -1,0 +1,46 @@
+.grid_container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  height: 100vh;
+}
+
+.sidebar {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  margin: 20px;
+  border-radius: 30px;
+  padding: 20px;
+  grid-row: 1;
+  grid-column: 1;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid rgb(73, 73, 73);
+}
+
+.content {
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+  grid-column: 2;
+}
+
+.search_bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 30px;
+  padding: 20px;
+  grid-row: 1;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid rgb(73, 73, 73);
+
+}
+
+.item_list {
+  background-color: black;
+  border: 2px solid rgb(73, 73, 73);
+  margin: 20px;
+  border-radius: 30px;
+  padding: 20px;
+  grid-row: 2;
+}

@@ -1,0 +1,30 @@
+.container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(73, 73, 73);
+  border-radius: 40px;
+}
+.search {
+  color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 60px;
+  border: none;
+  padding-left: 50px;
+  font-size: 40px;
+  box-shadow: none;
+  background-color: transparent;
+}
+.search:focus {
+  box-shadow: none;
+  outline: none;
+}
+.search_icon {
+  height: 60px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
